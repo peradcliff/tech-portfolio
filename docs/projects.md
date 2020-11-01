@@ -11,4 +11,4 @@ a screenshot or GIF to show it.
 You can list [links](http://wcet3.waketech.edu/peradcliff/WEB110/FINAL/index_final.html)
 or even embed images with the following Markdown:
 
-![Capture](/assets/Capture.png)
+![Capture](/assets/Capture.PNG)
