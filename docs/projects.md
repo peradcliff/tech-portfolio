@@ -12,4 +12,4 @@ You can list [links](http://wcet3.waketech.edu/peradcliff/WEB110/FINAL/index_fin
 or even embed images with the following Markdown:
 
 
-(./assets/Capture
+(./assets/Capture.png)
