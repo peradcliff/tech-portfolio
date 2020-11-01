@@ -1,0 +1,251 @@
+/*Student Name - Parker Radcliff
+  Today's Date - 7/6/2020 
+  
+  CSS for index.html, for final project
+  */
+
+  body, section, article, header, h1, h2, ul {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+}
+
+body {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+/* Images */
+
+#template image.img {
+    float: left;
+    width: 100%;
+}
+
+img.Blake {
+    float: right;
+    margin-left: 2em;
+    width: 7em;
+}
+
+/* Header related, image for the header is with the other images*/
+
+header {
+	text-align: left;
+	border: none;
+    position: absolute;
+    margin-bottom: 0em;
+    background-image:url(../images/parch2.jpg);
+    width: 100%
+}
+
+
+
+
+
+/* Main section, including Blake Article */
+
+h2 {
+    margin: 20px;
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+h2.Highway{
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+section.main {
+    float: left;
+    margin-left: 2%;
+    width: 40.5%;
+    padding-top: 8em;
+    padding-bottom: 0em;
+
+}
+
+
+#Blake article p {
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+
+
+/* Cougar section */
+
+#Cougar article {
+    padding-top: 8em;
+    margin-right: 1em;
+    background-image:url(../images/parch.jpg) ;
+    
+}
+
+h3 {
+    float: left;
+    border-style: solid;
+    border-color: cornsilk;
+    padding-bottom: 1em;
+    width: 30em;
+    background: url(../images/cougar.jpg) bottom right no-repeat;
+    background-size: 30px;
+    background-color: cornsilk;
+}
+
+
+section.CougarSightings{
+    padding-top: 8em;
+    margin-left: 53em;
+    margin-right: 2em;
+    min-height: 1000px;
+    background-image:url(../images/parch.jpg);
+    width: 40em;
+}
+
+
+
+
+
+
+
+/* Information for Paragraphs*/
+p {
+    padding-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+
+/* Left side navigation*/
+
+nav.leftnavigation {
+	padding-top: 8em;
+	float: left;
+	width: 15%;
+    margin-right: 0em;
+}
+
+ul.leftnav{
+    height: 1130px;
+    text-align: left;
+	list-style-type: none;
+    color: black;
+    margin-right: 2em;
+    font-weight: bold;
+    line-height: 2.5em;
+    text-decoration: none;
+    background-image:url(../images/parch2.jpg);
+    width: 100%
+    
+    
+}
+
+nav.leftnavigation a:hover {
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    width: 15%;
+}
+
+nav.leftnavigation a:link {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Encounter information*/
+
+h4.encounter {
+    text-align: center;
+    font-size: medium;
+    border-style: solid;
+    background-color: white;
+    width: 22em;
+    margin-top: 0em;
+    margin-left: 2em;
+    margin-bottom: 0em;
+    margin-right: 1em;
+} 
+
+aside{
+    float: right;
+    margin-top: 0em
+    
+}
+
+
+ul.encounter {
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    border-radius: 1em;
+    border-style: solid;
+    width: 20em;
+    float: right;
+    background-color: #aa815a
+    
+    
+}
+
+
+/* Stories inside area, lower right of the page*/
+h5.stories {
+    text-align: center;
+    font-size: larger;
+    background-image:url(../images/parch2.jpg);
+}
+
+#links4 {
+    width: 40em;
+    float: right;
+    list-style-type: square;
+    background-image:url(../images/parch2.jpg);
+    text-decoration: none;
+}
+
+nav#links4 div:first-of-type{
+    text-decoration: none;
+    list-style-type: square;
+    left: 0px;
+    float: left;
+    padding-top: 0px;
+
+}
+
+nav#links4 div:last-of-type{
+    text-decoration: none;
+    list-style-type: square;
+    left: 50%;
+    padding-top: 1px;
+}
+
+nav#links4 a:link {
+    list-style-type: square;
+    text-decoration: none;
+    color: black;
+}
+
+nav#links4 a:hover{
+    color: blue;
+    list-style-type: square;
+}
+
+
+
+
+/* Footer information*/
+
+footer {
+    margin-top: 10em;
+    width: 100%;
+    text-align: center;
+    background-image:url(../image/parch2.jpg)
+    
+}
